@@ -6,8 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 #%matplotlib inline
-image_path=r'C:\Users\Administrator\Desktop\deep learning\deep-learning-v2-pytorch-master\convolutional-neural-networks\conv-visualization\1.jpg'
-
+image_path=‘path’
 image1 = cv2.imread(image_path)
 image1 = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY)
 
