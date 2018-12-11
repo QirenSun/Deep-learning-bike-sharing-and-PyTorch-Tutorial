@@ -1,1 +1,3 @@
-Build a convolutional layer.
+1. Build a convolutional layer.
+2. Build Maxpool layer.
+3. CIFAR10_CNN
