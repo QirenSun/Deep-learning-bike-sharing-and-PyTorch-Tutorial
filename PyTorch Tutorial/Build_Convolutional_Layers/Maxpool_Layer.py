@@ -67,7 +67,7 @@ def viz_layer(layer, n_filters= 4):
         ax.imshow(np.squeeze(layer[0,i].data.numpy()), cmap='gray')
         ax.set_title('Output %s' % str(i+1))
         
-# plot original image
+
 plt.imshow(image1, cmap='gray')
 
 # visualize all filters
